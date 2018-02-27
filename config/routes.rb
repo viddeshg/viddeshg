@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   root 'home#home'
   get '/home', to: 'home#home'
-  get '/edits', to: 'edit#edit'
+  get '/edits', to: 'work#edit'
+  get '/websites', to: 'work#websites'
+  get 'contact', to: 'contact#contact'
 
 end
