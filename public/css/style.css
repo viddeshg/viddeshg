@@ -3,8 +3,8 @@
   padding-bottom: 15rem !important; }
   @media screen and (max-width: 520px) {
     .hero-body {
-      padding-top: 10rem !important;
-      padding-bottom: 12rem !important; } }
+      padding-top: 6rem !important;
+      padding-bottom: 8rem !important; } }
   .hero-body .title {
     letter-spacing: 2px; }
   .hero-body .subtitle a {
