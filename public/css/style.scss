@@ -1,6 +1,17 @@
 body
 {
   font-family: 'Raleway', sans-serif;
+
+  ::-moz-selection { /* Code for Firefox */
+    background: #fec748;
+    color: #fff;
+  }
+
+  ::selection {
+    background: #fec748;
+    color: #fff;
+  }
+
 }
 
 .hero-body

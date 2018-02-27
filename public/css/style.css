@@ -1,5 +1,12 @@
 body {
   font-family: 'Raleway', sans-serif; }
+  body ::-moz-selection {
+    /* Code for Firefox */
+    background: #fec748;
+    color: #fff; }
+  body ::selection {
+    background: #fec748;
+    color: #fff; }
 
 .hero-body {
   padding-top: 12rem !important;
