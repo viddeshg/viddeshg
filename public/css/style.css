@@ -1,6 +1,13 @@
-.hero-body .title {
-  letter-spacing: 2px; }
-.hero-body .subtitle a {
-  margin: 6px; }
+.hero-body {
+  padding-top: 15rem !important;
+  padding-bottom: 14rem !important; }
+  .hero-body .title {
+    letter-spacing: 2px; }
+  .hero-body .subtitle a {
+    margin: 6px; }
+
+footer {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important; }
 
 /*# sourceMappingURL=style.css.map */
