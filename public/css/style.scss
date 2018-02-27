@@ -1,7 +1,14 @@
 .hero-body
 {
-  padding-top: 15rem !important;
-  padding-bottom: 14rem !important;
+
+  @media screen and (max-width: 520px)
+  {
+    padding-top: 10rem !important;
+    padding-bottom: 12rem !important;
+  }
+
+  padding-top: 12rem !important;
+  padding-bottom: 15rem !important;
 
   .title
   {
@@ -20,6 +27,7 @@
 
 footer
 {
-  padding-top: 1rem !important;
+  padding-top: 1.5rem !important;
+  background-color: transparent !important;
   padding-bottom: 1rem !important;
 }
