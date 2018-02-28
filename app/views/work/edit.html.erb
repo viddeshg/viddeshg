@@ -4,31 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Viddesh | Videos</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+
+  <%= render 'layouts/links' %>
 
 
 </head>
 <body>
-<section class="hero is-dark is-large" style="background: white url('/img/bg.jpg'); background-size: cover;">
-  <!-- Hero head: will stick at the top -->
-  <div class="hero-head">
+<section class="hero is-dark is-large section_home">
+
       <%= render 'layouts/navbar' %>
-  </div>
-
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body" style="padding-top: 5rem !important; padding-bottom: 4rem !important;">
-    <div class="container" style="width:75%">
-      <h1 class="title has-text-centered" style="font-family: 'Raleway', sans-serif !important;">
-        <strong>Viddesh's Video Gallery</strong>
-      </h1>
-
-      <%= render 'work/videos' %>
-
-      </div>
-    </div>
+      <%= render 'work/videoPageContent' %>
 
 </section>
 
