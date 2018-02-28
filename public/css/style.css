@@ -23,9 +23,8 @@ body {
   .hero-body .subtitle a:hover {
     color: rgba(255, 255, 255, 0.6) !important; }
 
-footer {
-  padding-top: 1.5rem !important;
-  background-color: transparent !important;
-  padding-bottom: 1rem !important; }
+.section_home {
+  background: white url("/img/bg.jpg");
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

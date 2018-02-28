@@ -48,9 +48,8 @@ body
   }
 }
 
-footer
+.section_home
 {
-  padding-top: 1.5rem !important;
-  background-color: transparent !important;
-  padding-bottom: 1rem !important;
+  background: white url('/img/bg.jpg');
+  background-size: cover;
 }
